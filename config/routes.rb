@@ -1,4 +1,5 @@
 Pinteresting::Application.routes.draw do
+  devise_for:installs
   root "pages#home"
   get "about" => "pages#about" #creates about path
   get "signup" => "pages#signup" #creates sign up path
