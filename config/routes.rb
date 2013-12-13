@@ -3,7 +3,7 @@ Pinteresting::Application.routes.draw do
 
   devise_for :users
   # devise_for:installs
-  root "pages#home"
+  root "pins#index"
   get "about" => "pages#about" #creates about path
   get "signup" => "pages#signup" #creates sign up path
   # The priority is based upon order of creation: first created -> highest priority.
